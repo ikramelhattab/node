@@ -1,0 +1,46 @@
+{
+  "name": "tarsier-backend",
+  "version": "1.0.0",
+  "description": "Node.js server of tarsier project",
+  "main": "index.js",
+  "scripts": {
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "keywords": [
+    "safran",
+    "nodejs",
+    "backend"
+  ],
+  "author": "@sl",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "bcryptjs": "^2.4.3",
+    "cloudinary": "^1.29.1",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "express-brute-mongoose": "^1.1.0",
+    "firebase-admin": "^10.0.0",
+    "firebase-functions": "^3.21.2",
+    "joi": "^17.6.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.2.11",
+    "multer": "^1.4.4",
+    "pdf-to-png-converter": "^2.0.0",
+    "streamifier": "^0.1.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.13.0",
+    "firebase-functions-test": "^0.2.0"
+  },
+  "private": true
+}

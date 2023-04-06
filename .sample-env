@@ -1,0 +1,24 @@
+# This file contains all the secret environment variables names that need to be declared in the .env file.
+# Just copy the following content, paste it in .env file and then assign the variables names with your strings.
+
+
+NODE_ENV=developping
+TARSIO_PORT=3190
+
+
+# Mongo stuffs
+MONGO_CLOUD_URL=mongodb+srv://hodhod:4xccYC1u@cluster0.gmdik.mongodb.net/hodhod?retryWrites=true&w=majority
+MONGO_LOCAL_URL=mongodb://localhost:27017
+
+
+# Auth stuffs
+ACCESS_TOKEN_SECRET=$%;R}w=V?FXc}9j98-BU;&[%p%asn8N.Q;Qk5w{,nyDSC^,s_Y()/y=HAq'B
+
+# Cloudinary stuffs
+CLOUDINARY_CLOUD_NAME=dhctlkoua
+CLOUDINARY_API_KEY=423537167245544
+CLOUDINARY_API_SECRET=XZOT5uG2sYD0HK6gtScyzXCcpuI
+
+
+
+
